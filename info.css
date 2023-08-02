@@ -8,6 +8,9 @@ body{
 	max-width: 1400px;
 	margin: 0 auto;
 }
+.container{
+	display: flex;
+}
 
 .teamMembersHead {
     text-align: center;
@@ -24,4 +27,33 @@ body{
     font-size: 38px;
     padding: 0;
     margin: 0;
+}
+
+
+.singleMember {
+    max-width: 300px;
+    padding: 10px;
+}
+
+.infoMember .memberImage {
+    text-align: center;
+}
+
+.infoMember img {
+    border-radius: 50%;
+}
+
+.infoMember .mainInfo {
+    background-color: #000;
+    color: white;
+    border-top: 5px solid red;
+    padding: 0 10px;
+}
+
+.mainInfo h4, .mainInfo h5 {
+    margin: 10px;
+}
+
+.memberImage {
+    margin-bottom: 14px;
 }
